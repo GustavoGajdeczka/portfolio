@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="./components/script.js"></script>
+  <script src="./components/cookie.js"></script>
+  <script src="./components/geoMouse.js"></script>
+</head>
+<body>
+  <div class="background"></div>
+  <nav class="navbar navbar-dark bg-dark">
+    <div class="frameworks">
+      <button type="button" class="btn btn-dark py-1">
+        <img alt="United States" src="./lang/vue.svg"/>
+      </button>
+      <button type="button" class="btn btn-dark py-1">
+        <img alt="United States" src="./lang/react.svg"/>
+      </button>
+
+    </div>
+    <div class="idiomas mx-2">
+      <button type="button" class="btn btn-dark py-1" onclick="changeLanguage('pt-BR')">
+        BR
+        <img alt="United States" src="./lang/BR.svg"/>
+      </button>
+      <button type="button" class="btn btn-dark py-1" onclick="changeLanguage('en-US')">
+        EN
+        <img alt="United States" src="./lang/US.svg"/>
+      </button>
+      <button type="button" class="btn btn-dark py-1" onclick="changeLanguage('de-de')">
+        DE
+        <img alt="United States" src="./lang/DE.svg"/>
+      </button>
+    </div>
+  </nav>
+  <div class="main">
+    <div class="container">
+    </div>
+  </div>
+</body>
+</html>

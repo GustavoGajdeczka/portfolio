@@ -1,0 +1,25 @@
+.background {
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  left: 0px;
+  background: #41b883;
+  position: fixed;
+  z-index: -1;
+}
+
+.idioma .btn-secondary {
+  --bs-btn-padding-y: .25rem !important; 
+  --bs-btn-padding-x: .5rem !important; 
+  --bs-btn-font-size: .75rem !important;
+}
+.idiomas button img{
+  width: 24px;
+  height: 21px;
+  vertical-align: sub;
+} 
+.frameworks button img{
+  width: 24px;
+  height: 21px;
+  vertical-align: sub;
+} 
