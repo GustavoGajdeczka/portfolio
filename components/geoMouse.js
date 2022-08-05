@@ -4,7 +4,14 @@ onmousemove = (e) => {
 
   mouseX = Math.round(e.pageX / windowWidth * 100);
   mouseY = Math.round(e.pageY / windowHeight * 100);
-  document.getElementsByClassName("background").style
-  document.getElementsByClassName("background")[0].style.background = `radial-gradient(at ${mouseX}% ${mouseY}%, #91fbfb, #61dbfb`
-  //document.getElementsByClassName("background")[0].style.background = `radial-gradient(at ${mouseX}% ${mouseY}%, #34495e, #41b883`
+
+  document.querySelector(".background").style.background = `radial-gradient(at ${mouseX}% ${mouseY}%, ${libraryColors()}`
+
+  iconeX = Math.round(e.pageX / windowWidth * 30);
+  iconeY = Math.round(e.pageY / windowHeight * 30);
+
+  document.querySelector(".image1").style.transform = `translateX(${iconeX}px) translateY(${iconeY}px)`
+  document.querySelector(".image2").style.transform = `translateX(${30 - iconeX}px) translateY(${30 - iconeY}px)`
+  document.querySelector(".image3").style.transform = `translateX(${iconeY}px) translateY(${iconeX}px)`
+  document.querySelector(".image4").style.transform = `translateX(${30 - iconeY}px) translateY(${30 - iconeX}px)`
 }
