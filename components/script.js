@@ -4,6 +4,10 @@ const data = {
 
 window.onload = () => {
   const lib = getCookie('library')
+  if(!lib){
+    setCookie('library', 'vue');
+    window.location.reload()
+  }
   for (let index = 0; index < 4; index++) {
     image = document.querySelector(`.image${index + 1}`).src = `./${lib}.svg`
   }
