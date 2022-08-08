@@ -9,7 +9,7 @@ window.onload = () => {
     window.location.reload()
   }
   for (let index = 0; index < 4; index++) {
-    image = document.querySelector(`.image${index + 1}`).src = `./${lib}.svg`
+    image = document.querySelector(`.image${index + 1}`).src = `./assets/${lib}.svg`
   }
 }
 
