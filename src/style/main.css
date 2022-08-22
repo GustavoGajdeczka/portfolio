@@ -1,0 +1,50 @@
+@import "./navbar.css";
+@import "./background.css";
+
+@font-face {
+  font-family: alagard;
+  src: url(./../assets/alagard.ttf);
+}
+
+*{
+  font-family: alagard;
+  color: white;
+  overflow-x: hidden;
+}
+
+h1, h3{
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+
+}
+
+.main{
+  width: 100vw;
+}
+
+.main h1{
+  z-index: 30;
+}
+
+.idioma .btn-secondary {
+  --bs-btn-padding-y: .25rem !important; 
+  --bs-btn-padding-x: .5rem !important; 
+  --bs-btn-font-size: .75rem !important;
+}
+
+.frameworks{
+  padding-left: 10px;
+}
+
+.frameworks button img, .idiomas button img{
+  width: 24px;
+  height: 21px;
+  vertical-align: sub;
+} 
+
+.container{
+  border: 2px solid black;
+  border-image: url(./../assets/border2.png) 33%;
+  border-image-width: 120px;
+  padding: 50px;
+  z-index: 50;
+}

@@ -1,0 +1,9 @@
+.navbar, button{
+  background: rgba( 255, 255, 255, 0.1 );
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  z-index: 2000;
+  border-image: url(./../assets/border2.png) 33%;
+  border-image-width: 0 50px 50px 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+}

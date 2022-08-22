@@ -1,0 +1,26 @@
+{
+  "pt-BR":{
+    "nome": "Alessandro Gustavo Gajdeczka",
+    "lang":"linguagem",
+    "framework":"biblioteca",
+    "counter":"contador",
+    "welcome": "olá, seja bem vindo ao meu site pessoal",
+    "bio": "eu me chamado Alessandro Gustavo Gajdeczka, tenho 23 e a 4 anos trabalho com desenvolvimento."
+  },
+  "en-US":{
+    "nome": "Alessandro Gustavo Gajdeczka",
+    "lang":"language",
+    "framework":"framework",
+    "counter":"counter",
+    "welcome": "Hello, welcome to my personal site",
+    "bio": "My name is Alessandro Gustavo Gajdeczka, i'm 23 years old red-beard Brazilian, i've been working for 4 years with development"
+  },
+  "de-DE":{
+    "nome": "Alessandro Gustavo Gajdeczka",
+    "lang":"sprache",
+    "framework":"framework",
+    "counter":"zähler",
+    "welcome": "Hallo, willkommen auf meiner persönlichen Site",
+    "bio": "Mein Name ist Alessandro Gustavo Gajdeczka, ich bin 23 Jahre alt, rothaariger Brasilianer und arbeite seit 4 Jahren in der Entwicklung"
+  }
+} 
