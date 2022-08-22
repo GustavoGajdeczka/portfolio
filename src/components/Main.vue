@@ -4,7 +4,7 @@
       <div class="row">
         <div class="col-md-12">
           <img src="./../assets/logopixel.png" style="float:left;width:200px;height:200px;" alt="">
-          <h1>{{getLang.welcome}}</h1>
+          <h1>{{getLang.welcome}}.</h1>
           <h3>{{getLang.bio}}</h3>
         </div>
       </div>
